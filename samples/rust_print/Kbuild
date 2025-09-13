@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: GPL-2.0
+
+obj-m := rust_print.o
+rust_print-objs := rust_print_main.o rust_print_events.o

@@ -1,0 +1,7 @@
+#!/usr/bin/env bpftrace
+
+# > cat /sys/kernel/debug/tracing/available_events | grep rust_sample_loaded
+
+tracepoint:rust_sample:rust_sample_loaded {
+    printf("PID: %d, Magic: %d\n", pid, args.magic_number);
+}

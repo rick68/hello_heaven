@@ -1,0 +1,5 @@
+# SPDX-License-Identifier: GPL-2.0
+
+obj-m := rust_kunit.o
+
+rust_kunit-objs := rust_kunit_main.o tests.o

@@ -1,0 +1,10 @@
+[package]
+name = "rust_misc_device"
+version = "0.1.0"
+description = "Rust misc device sample"
+publish = false
+edition = "2024"
+license = "GPL-2.0"
+
+[dependencies]
+libc = "0.2.175"

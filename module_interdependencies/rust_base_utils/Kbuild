@@ -1,0 +1,5 @@
+# SPDX-License-Identifier: GPL-2.0
+
+obj-m := rust_base_utils.o
+
+rust_base_utils-objs := rust_base_utils_main.o export.o
